@@ -1,0 +1,39 @@
+{
+  "name": "shafimsp/laravel-sms-notification-channel-smscountry-driver",
+  "description": "SMS Country driver for Laravel SMS Notification Channel",
+  "keywords": [
+    "laravel",
+    "sms",
+    "notification",
+    "log",
+    "SMS Country"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Muhammed Shafi",
+      "email": "shafimsp@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.1.3",
+    "guzzlehttp/guzzle": "^6.3",
+    "illuminate/support": "~5.8.0|^6.0",
+    "shafimsp/laravel-sms-notification-channel": "^1.0@alpha"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shafimsp\\SmsNotificationChannel\\SmsCountry\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shafimsp\\SmsNotificationChannel\\SmsCountry\\SmsCountryServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
