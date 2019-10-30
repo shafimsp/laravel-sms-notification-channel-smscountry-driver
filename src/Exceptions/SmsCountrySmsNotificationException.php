@@ -4,9 +4,9 @@ namespace Shafimsp\SmsNotificationChannel\SmsCountry\Exceptions;
 
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\ResponseInterface;
-use Shafimsp\SmsNotificationChannel\Exceptions\SmsException;
+use Shafimsp\SmsNotificationChannel\Exceptions\SmsNotificationException;
 
-class SmsCountrySmsNotificationException extends SmsException
+class SmsCountrySmsNotificationException extends SmsNotificationException
 {
     /**
      * Thrown when SMS Country return a response body other than '1'.
