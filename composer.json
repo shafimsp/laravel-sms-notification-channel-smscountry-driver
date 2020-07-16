@@ -19,7 +19,7 @@
   "require": {
     "php": "^7.1.3",
     "guzzlehttp/guzzle": "^6.3",
-    "illuminate/support": "~5.8.0|^6.0",
+    "illuminate/support": "~5.8.0|^6.0|^7.0",
     "shafimsp/laravel-sms-notification-channel": "^1.0@alpha"
   },
   "autoload": {
